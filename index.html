@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/jquery.bxslider.css"/>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/dimensiones.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                auto: true
+            });
+        });
+    </script>
+    <title>SUMITEL</title>
+</head>
+<body>
+    <header>
+        <figure class="logo">
+            <img src="images/logo.png" alt="">
+        </figure>
+        <div class="mini">
+            <ul>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Linea de Productos</a></li>
+                <li><a href="#">Acercate a SUMITEL</a></li>
+                <li><a href="#">Mi cuenta</a></li>
+                <li><a href="#">Mi carrito</a></li>
+                <li><a href="#">Iniciar sesión</a></li>
+            </ul>
+        </div>
+    </header>
+    <ul class="bxslider">
+        <li><img src="images/slider1.jpg" /></li>
+        <li><img src="images/slider2.png" /></li>
+    </ul>
+    <section id="left">
+        <article class="descripcion">
+            <figure class="logo">
+                <img src="images/logo.png" alt="">
+                <p class="informacion">SUMITEL se ha mantenido como una empresa líder en el mercado de equipo de cómputo en México, por lo que genera empleos en el país y desarrolla tecnología nacional contribuyendo a mejorar la competitividad y calidad de vida de los usuarios mexicanos a través de las más avanzadas plataformas tecnológicas. <br><br>Con nuestras oficinas centrales en la Ciudad de México, nuestras Sucursales (Aguascalientes, Cancún, Guadalajara, León,  Monterrey, Mérida, Morelia, Querétaro, Pachuca, Puebla, San Luis Potosí y Toluca) en SUMITEL hemos mantenido un crecimiento constante cubriendo una parte importante del territorio nacional sumando en total 18 puntos de venta.</p>
+            </figure>
+        </article>
+    </section>
+    <section id="right">
+        <article class="productos">
+            <figure class="producto">
+                <img src="images/acer.png" alt="">
+                <p class="informacion">No se queme con el calor y la presión de los juegos intensos. Mantenga la temperatura baja con la tecnología térmica avanzada. Inyecte un poco de frío Cooler Master para mantener la temperatura baja y el rendimiento alto. Cambie a Predator FrostCore para sesiones de juego intenso.
+</p>
+            </figure>
+        </article>
+        <article class="productos">
+            <figure class="producto">
+                <img src="images/adata.png" alt="">
+                <p class="informacion">Con el HM900 grabación y reproducción simultáneas sin comprometer el rendimiento, incluye sensores de golpes y vibraciones que automáticamente cambian al modo de protección de datos. Turbo HDD que acelera  las velocidades de los datos de forma eficiente.</p>
+            </figure>
+        </article>
+    </section>
+
+    <footer>
+        <div class="col">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Items</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
